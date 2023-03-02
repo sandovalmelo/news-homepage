@@ -24,7 +24,7 @@ img {
   padding: 1rem 0; }
 
 .menu {
-  padding: 1rem 0;
+  height: 65px;
   display: flex;
   align-items: center;
   justify-content: space-between; }
@@ -40,6 +40,8 @@ img {
     left: 0;
     height: 100vh;
     display: none; }
+    .menu-nav.active {
+      display: block; }
     .menu-nav nav {
       background-color: #fffdfa;
       position: absolute;

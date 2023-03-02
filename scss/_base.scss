@@ -28,3 +28,15 @@ body {
 img {
 	max-width: 100%;
 }
+
+.btn {
+	background-color: $soft-red;
+	color: $off-white;
+	font-weight: 700;
+	text-transform: uppercase;
+	letter-spacing: 4px;
+	font-size: 0.85rem;
+	border: none;
+	width: 12rem;
+	padding: 1rem 0;
+}

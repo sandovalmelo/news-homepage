@@ -1,0 +1,19 @@
+.header {
+	.headline {
+		&-title {
+			margin-top: 1rem;
+			color: $very-dark-blue;
+			font-weight: 800;
+			font-size: 2.25rem;
+		}
+
+		&-text {
+			margin: 1rem 0;
+			color: $dark-grayish-blue;
+		}
+
+		.read-more-btn {
+			margin: 1rem 0;
+		}
+	}
+}

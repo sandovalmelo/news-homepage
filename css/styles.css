@@ -6,9 +6,44 @@
   box-sizing: border-box; }
 
 body {
-  font-family: "Inter", sans-serif; }
+  font-family: "Inter", sans-serif;
+  padding: 0 1rem; }
 
 img {
   max-width: 100%; }
+
+.menu {
+  padding: 1rem 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between; }
+  .menu-logo {
+    max-width: 3rem; }
+  .menu-toggle-icon {
+    z-index: 100; }
+  .menu-nav {
+    background-color: rgba(0, 0, 0, 0.5);
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    height: 100vh;
+    display: none; }
+    .menu-nav nav {
+      background-color: #fffdfa;
+      position: absolute;
+      right: 0;
+      height: 100vh;
+      width: 70vw; }
+      .menu-nav nav ul {
+        position: absolute;
+        top: 30%;
+        transform: translateY(-30%); }
+      .menu-nav nav li {
+        list-style: none;
+        padding: 0.5rem 1rem; }
+      .menu-nav nav a {
+        text-decoration: none;
+        color: inherit; }
 
 /*# sourceMappingURL=styles.css.map */

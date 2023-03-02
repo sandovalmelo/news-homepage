@@ -68,7 +68,7 @@ img {
     margin: 1rem 0;
     color: #5d5f79; }
   .header .headline .read-more-btn {
-    margin-bottom: 1rem; }
+    margin-bottom: 1.5rem; }
   .header .new-section {
     background-color: #00001a;
     color: #fffdfa;
@@ -84,5 +84,29 @@ img {
       color: #c5c6ce; }
   .header .new-article:last-of-type {
     border-bottom: none; }
+
+.most-viewed-article {
+  display: grid;
+  grid-template-columns: 35% auto;
+  gap: 1rem;
+  margin-bottom: 1rem; }
+  .most-viewed-article-image {
+    width: auto; }
+    .most-viewed-article-image img {
+      width: 100%; }
+  .most-viewed-article-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end; }
+  .most-viewed-article-title {
+    font-size: 1rem;
+    font-weight: 800;
+    color: #00001a;
+    margin: 0.75rem 0; }
+  .most-viewed-article-text {
+    color: #5d5f79; }
+.most-viewed-number {
+  font-size: 2rem;
+  color: #c5c6ce; }
 
 /*# sourceMappingURL=styles.css.map */

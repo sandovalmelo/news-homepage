@@ -57,15 +57,32 @@ img {
         text-decoration: none;
         color: inherit; }
 
-.header .headline-title {
-  margin-top: 1rem;
-  color: #00001a;
-  font-weight: 800;
-  font-size: 2.25rem; }
-.header .headline-text {
-  margin: 1rem 0;
-  color: #5d5f79; }
-.header .headline .read-more-btn {
-  margin: 1rem 0; }
+.header {
+  margin-bottom: 2rem; }
+  .header .headline-title {
+    margin-top: 1rem;
+    color: #00001a;
+    font-weight: 800;
+    font-size: 2.25rem; }
+  .header .headline-text {
+    margin: 1rem 0;
+    color: #5d5f79; }
+  .header .headline .read-more-btn {
+    margin-bottom: 1rem; }
+  .header .new-section {
+    background-color: #00001a;
+    color: #fffdfa;
+    padding: 1rem; }
+    .header .new-section-title {
+      color: #e9ab53; }
+  .header .new-article {
+    padding: 1.25rem 0;
+    border-bottom: 1px solid #c5c6ce; }
+    .header .new-article-title {
+      padding: 1rem 0; }
+    .header .new-article-text {
+      color: #c5c6ce; }
+  .header .new-article:last-of-type {
+    border-bottom: none; }
 
 /*# sourceMappingURL=styles.css.map */

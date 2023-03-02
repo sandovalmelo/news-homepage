@@ -1,4 +1,6 @@
 .header {
+	margin-bottom: 2rem;
+
 	.headline {
 		&-title {
 			margin-top: 1rem;
@@ -13,7 +15,34 @@
 		}
 
 		.read-more-btn {
-			margin: 1rem 0;
+			margin-bottom: 1rem;
 		}
+	}
+
+	.new-section {
+		background-color: $very-dark-blue;
+		color: $off-white;
+		padding: 1rem;
+
+		&-title {
+			color: $soft-orange;
+		}
+	}
+
+	.new-article {
+		padding: 1.25rem 0;
+		border-bottom: 1px solid $grayish-blue;
+
+		&-title {
+			padding: 1rem 0;
+		}
+
+		&-text {
+			color: $grayish-blue;
+		}
+	}
+
+	.new-article:last-of-type {
+		border-bottom: none;
 	}
 }

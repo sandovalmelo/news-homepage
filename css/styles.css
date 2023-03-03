@@ -29,7 +29,10 @@ main {
 
 @media (min-width: 900px) {
   .btn {
-    padding: 0.75rem 0; } }
+    padding: 0.75rem 0; }
+    .btn:hover {
+      cursor: pointer;
+      background-color: #00001a; } }
 .menu {
   display: flex;
   align-items: center;

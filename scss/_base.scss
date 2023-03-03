@@ -45,3 +45,9 @@ main {
 	max-width: 1000px;
 	margin: 0 auto;
 }
+
+@media (min-width: 900px) {
+	.btn {
+		padding: 0.5rem 0;
+	}
+}

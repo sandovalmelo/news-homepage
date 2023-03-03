@@ -47,13 +47,42 @@
 
 @media (min-width: 900px) {
 	.header {
+		display: grid;
+		column-gap: 1.5rem;
+		row-gap: 1rem;
+		grid-template-areas:
+			"img img news"
+			"title text news"
+			"title btn news";
+
+		&-image {
+			grid-area: img;
+
+			img {
+				height: 100%;
+			}
+		}
+
+		&-title {
+			grid-area: title;
+			font-size: 2.75rem;
+		}
+
+		&-text {
+			grid-area: text;
+			line-height: 1.6;
+		}
+
 		.news {
+			grid-area: news;
+
 			&-title {
-				font-size: 2.5rem;
+				font-size: 2.75rem;
 			}
 		}
 
 		.btn {
+			grid-area: btn;
 			margin-bottom: 0;
 		}
 	}

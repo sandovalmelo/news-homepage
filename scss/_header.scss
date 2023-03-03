@@ -31,7 +31,12 @@
 			border-bottom: 1px solid $grayish-blue;
 
 			&-title {
-				padding: 1rem 0;
+				color: inherit;
+				font-weight: 700;
+				font-size: 1.15rem;
+				text-decoration: none;
+				margin-bottom: 0.75rem;
+				display: block;
 			}
 
 			&-text {
@@ -65,7 +70,7 @@
 
 		&-title {
 			grid-area: title;
-			font-size: 2.75rem;
+			font-size: 3rem;
 		}
 
 		&-text {

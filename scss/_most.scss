@@ -36,3 +36,12 @@
 		color: $grayish-blue;
 	}
 }
+
+@media (min-width: 900px) {
+	.most-viewed {
+		display: grid;
+		grid-template-columns: repeat(3, 1fr);
+		gap: 1.5rem;
+		margin: 4rem 0;
+	}
+}

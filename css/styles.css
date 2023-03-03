@@ -173,7 +173,8 @@ main {
     font-size: 1rem;
     font-weight: 800;
     color: #00001a;
-    margin: 0.75rem 0; }
+    margin: 0.75rem 0;
+    text-decoration: none; }
   .most-viewed-article-text {
     color: #5d5f79; }
 .most-viewed-number {
@@ -185,6 +186,8 @@ main {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 1.5rem;
-    margin: 4rem 0; } }
+    margin: 4rem 0; }
+    .most-viewed-article-title:hover {
+      color: #f15e50; } }
 
 /*# sourceMappingURL=styles.css.map */

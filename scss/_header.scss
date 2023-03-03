@@ -33,7 +33,7 @@
 			&-title {
 				color: inherit;
 				font-weight: 700;
-				font-size: 1.15rem;
+				font-size: 1rem;
 				text-decoration: none;
 				margin-bottom: 0.75rem;
 				display: block;
@@ -41,6 +41,7 @@
 
 			&-text {
 				color: $grayish-blue;
+				font-size: 1rem;
 			}
 		}
 
@@ -80,9 +81,23 @@
 
 		.news {
 			grid-area: news;
+			padding: 1.5rem;
 
 			&-title {
 				font-size: 2.75rem;
+			}
+
+			&-article {
+				&-title {
+					&:hover {
+						color: $soft-orange;
+					}
+				}
+
+				&-text {
+					font-size: 0.9rem;
+					line-height: 1.6;
+				}
 			}
 		}
 

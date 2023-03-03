@@ -74,7 +74,7 @@ main {
           padding: 0.5rem 1rem; } }
 @media (min-width: 900px) {
   .menu {
-    margin: 1.5rem 0; }
+    margin: 3.5rem 0 2rem; }
     .menu-toggle-icon {
       display: none;
       visibility: hidden; }
